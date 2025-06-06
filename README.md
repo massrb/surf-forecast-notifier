@@ -8,7 +8,8 @@ This project is a Python-based web scraper that checks surf ratings from [surf-f
 - Filters ratings only from the first 9 forecast cells.
 - Sends email notifications via Gmail SMTP.
 - Deployable to Google Cloud Run on a schedule.
-- Needs docker image which may be 2 gig and above 
+- Needs docker image which may be 2 gig and above
+- Docker is needed because playwright is used
 - Docker image is above the free tier for Artifact Registry API
 - other charges can apply if the image is accessed etc
 
